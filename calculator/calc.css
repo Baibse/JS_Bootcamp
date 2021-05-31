@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#calculator {
+    width: 15%;
+    height: 45%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    position: relative;
+    /* top: 20%; */
+    border-radius: 20px;
+    user-select: none;
+
+}
+
+#result {
+    width: 90%;
+    height: 20%;
+
+}
+/* #buttons {
+
+} */

@@ -1,0 +1,73 @@
+.container {
+    width: 100%;
+}
+
+#top {
+    height: 15%;
+}
+
+#playButton {
+    font-family: "Comic Sans Ms", sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: tomato
+}
+
+#playButton:hover {
+    color: green;
+    cursor: pointer;
+}
+
+#mid {
+    height: 35%;
+    text-align: center;
+    user-select: none;
+}
+
+#bot {
+    height: 50%
+
+}
+
+#healthContainer {
+    height: 60px;
+
+}
+.letterContainer {
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
+.letterContainer:hover { background-color: lightgray; }
+
+.guessWord {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "Comic Sans Ms", sans-serif;
+}
+
+.keyboardRow {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+
+}
+
+.keyboardLetter {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+
+}
+
+.healthPoint {
+    height: 100%;
+}
